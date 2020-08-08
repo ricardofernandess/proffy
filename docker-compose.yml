@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: "flowth/proffy-web"
+    ports:
+      - "5000:5000"
+  server:
+    image: "flowth/proffy-server"
+    ports:
+      - "3333:3333"
